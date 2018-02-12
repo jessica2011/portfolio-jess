@@ -46,24 +46,48 @@ h1 {
 
 h3 {
   color: white;
-  line-height: 36pt;
+  line-height: 20pt;
+  margin: 0 40px 20px;
+  font-size: 20px;
 }
 
 section:nth-of-type(1) .text {
-  margin: 0 40px 20px;
-  font-size: 30pt;
+  margin: 0 10px 20px;
+  font-size: 28pt;
   z-index: 1;
   color: #F2D1A8;
   pointer-events: none;
 }
 
-@media screen and (min-width: 769px) {
+
+@media screen and (min-width: 767px) {
   section:nth-of-type(1) .text {  
-    margin: 0 16vw 20px;
-    font-size: 50pt;
-    line-height: 36pt;
+    margin: 0 15vw 20px;
+    font-size: 40pt;
+    line-height: 25pt;
+  }
+  h3 {
+    color: white;
+    line-height: 25pt;
+    margin: 0 18vw 20px;
   }
 }
+
+
+@media screen and (min-width: 1023px) {
+  section:nth-of-type(1) .text {  
+    margin: 0 15vw 20px;
+    font-size: 60pt;
+    line-height: 28pt;
+  }
+  h3 {
+    color: white;
+    line-height: 28pt;
+    margin: 0 18vw 20px;
+    font-size: 30px;
+  }
+}
+
  
 /* navBar */
 

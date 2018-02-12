@@ -18,7 +18,7 @@ let begin = () => {
         clearInterval(printStr)
         name.style.fontWeight = '600'
       }
-    },200);
+    },400);
   };
   // Hover de btn seccion de presentación
   let changeArrow = () => {
