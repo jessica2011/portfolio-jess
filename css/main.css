@@ -6,7 +6,7 @@ body {
 }
 
 .container-intro {
-  background-image: url('../assets/images/portada.jpg');
+  background-image: url('../assets/images/front-background.jpg');
 }
 
 .bg {
@@ -27,7 +27,7 @@ body {
 .btn-my {
   border-radius: 0px;
   color: white;
-  border: 2px solid white;
+  border: 2px solid rgba(255,255,255,0.8);
   background-color: transparent;
   transition: all .5s;
 }
@@ -41,7 +41,8 @@ body {
 
 h1 {
   color: #F2D1A8;
-  font-size: 50pt;
+  font-size: 60pt;
+  font-family: 'Cookie', cursive;
 }
 
 h3 {
@@ -63,7 +64,7 @@ section:nth-of-type(1) .text {
 @media screen and (min-width: 767px) {
   section:nth-of-type(1) .text {  
     margin: 0 15vw 20px;
-    font-size: 40pt;
+    font-size: 50pt;
     line-height: 25pt;
   }
   h3 {
@@ -86,6 +87,7 @@ section:nth-of-type(1) .text {
     margin: 0 18vw 20px;
     font-size: 30px;
   }
+
 }
 
  
@@ -117,6 +119,21 @@ section:nth-of-type(1) .text {
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.white{ color: white; }
 
+/* about */
+
+.header {
+  font-size: 30px;
+  color: #444649;
+}
+
+.header:after {
+  margin-top: 10px;
+  content: '';
+  display: block;
+  background-color: #444649;
+  height: 5px;
+  width: 100px;
+}
 /* hexagono */
 
 /* 
