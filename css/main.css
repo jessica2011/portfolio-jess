@@ -480,3 +480,8 @@ figure.snip1477.hover figcaption {
   color: white
 }
 
+.h5-hover:hover{
+  color:#3E333F;
+  text-decoration: none;
+  font-weight: 600;
+}
