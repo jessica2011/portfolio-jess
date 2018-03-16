@@ -463,4 +463,20 @@ figure.snip1477.hover figcaption {
 }
 
 
+.footer {
+  background-color: #3E333F;
+}
+
+.bg-media {
+  background: linear-gradient(to bottom, #fff 50%, #3E333F 50%);
+}
+
+.blanco-bg {
+  background-color: white;
+  border: 5px solid #FDB44B;
+}
+
+.blanco-letter {
+  color: white
+}
 
