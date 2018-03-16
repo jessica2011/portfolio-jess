@@ -43,9 +43,35 @@ body {
   text-decoration: none;
 }
 
+.radius {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.up {
+  width: 50px;
+  height:50px;
+}
+
+.btn-my2 {
+  border-radius: 0px;
+  color: #3E333F;
+  border: 2px solid #3E333F;
+  background-color: transparent;
+  transition: all .5s;
+}
+
+.btn-my2:hover{
+  color: white;
+  background-color: #FDB44B;
+  border: 2px solid #FDB44B;
+  text-decoration: none;
+}
+
 h1 {
   color: #474744;
-  font-size: 120px !important;
+  font-size: 100px !important;
   font-family: 'Cookie', cursive;
 }
 
@@ -66,7 +92,7 @@ section:nth-of-type(1) .text {
 
 
 @media screen and (min-width: 767px) {
-  section:nth-of-type(1) .text {  
+  section:nth-of-type(1) .text {
     margin: 0 15vw 20px;
     font-size: 50pt;
     line-height: 25pt;
@@ -80,10 +106,14 @@ section:nth-of-type(1) .text {
 
 
 @media screen and (min-width: 1023px) {
-  section:nth-of-type(1) .text {  
+  h1 {
+    font-size: 50px;
+    margin: 0px
+  }
+  section:nth-of-type(1) .text {
     margin: 0 15vw 20px;
     font-size: 60pt;
-    line-height: 28pt;
+    /* line-height: 28pt; */
   }
   h3 {
     color: white;
@@ -270,20 +300,18 @@ section:nth-of-type(1) .text {
 
 /* portafolio */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 figure.snip1477 {
-  font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 270px;
-  max-width: 400px;
+  min-width: 350px;
+  max-width: 550px;
   width: 100%;
   color: #ffffff;
   text-align: center;
-  font-size: 16px;
+  font-size: 22px;
   background-color: #000000;
 }
 figure.snip1477 *,
@@ -309,7 +337,7 @@ figure.snip1477 .title {
 figure.snip1477 .title:before,
 figure.snip1477 .title:after {
   height: 2px;
-  width: 400px;
+  width: 550px;
   position: absolute;
   content: '';
   background-color: #ffffff;
@@ -415,7 +443,24 @@ figure.snip1477.hover figcaption {
 }
 
 .img-portafolio {
-  width: 100%;
-  height: 290px;
-  background-color: rgba(0, 0, 0, 0.3)
+  height: 300px
 }
+
+.icons-prog{
+  width: 50px;
+}
+
+.icons-prog1{
+  width: 100px;
+}
+
+.span span {
+  cursor: pointer;
+}
+
+.img-icons-repor{
+  width: 30px;
+}
+
+
+
