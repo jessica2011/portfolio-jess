@@ -15,7 +15,7 @@ let begin = () => {
       }
       if (i === arrFromStr.length) {
         clearInterval(printStr);
-        name.style.color = 'white';
+        name.style.color = '#3E333F';
         name.style.fontWeight = '520';
       }
     }, 300);
@@ -47,9 +47,19 @@ let begin = () => {
     });
   };
 
+  // efecto hover a mi foto
+
+  let hoverImg = () => {
+    const hover = document.getElementsByClassName('hover');
+    hover.addEventListener('mouseleave', function() {
+      $(this).removeClass('hover');
+    });
+  };
+
   writing('Jessica Meza Rojas');
   changeArrow();
   smoothAutoScroll();
+  hoverImg();
 };
 
 window.addEventListener('load', begin);
