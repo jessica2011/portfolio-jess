@@ -43,6 +43,10 @@ body {
   text-decoration: none;
 }
 
+.color-plomo{
+  color: #3E333F;
+}
+
 .radius {
   border-radius: 50%;
   width: 80px;
