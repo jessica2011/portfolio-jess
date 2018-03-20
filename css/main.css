@@ -44,7 +44,7 @@ body {
 }
 
 .color-p{
-  color: #3E333F;
+  color: #3E333F !important;
 }
 
 .radius {
