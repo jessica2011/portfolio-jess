@@ -10,7 +10,7 @@ body {
 }
 
 .bg-j{
-  background-color:  rgba(0, 0, 0, 0.1);
+  background-color:  rgba(0, 0, 0, 0.3);
 }
 
 .bg {
@@ -76,7 +76,7 @@ h1 {
 }
 
 h3 {
-  color: #3E333F !important;
+  color: rgb(255, 255, 255) !important;
   line-height: 20pt;
   margin: 0 40px 20px;
   font-size: 20px;
