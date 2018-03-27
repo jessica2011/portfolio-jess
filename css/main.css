@@ -13,6 +13,10 @@ body {
   background-color:  rgba(0, 0, 0, 0.3);
 }
 
+.tx{
+  color: #474744 !important;
+}
+
 .bg {
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -361,7 +365,7 @@ figure.snip1477 .title:after {
 figure.snip1477 .title div:before,
 figure.snip1477 .title div:after {
   width: 2px;
-  height: 300px;
+  height: 310px;
   position: absolute;
   content: '';
   background-color: #ffffff;
@@ -488,4 +492,8 @@ figure.snip1477.hover figcaption {
   color:#3E333F;
   text-decoration: none;
   font-weight: 600;
+}
+
+.bgf {
+  background-color: rgba(0, 0, 0, 0.1)
 }
